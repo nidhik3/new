@@ -1,182 +1,147 @@
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<!DOCTYPE html>
+<html lang="en">
 
-<style>
-    a,
-    a:hover {
-        text-decoration: none;
-        color: black;
-    }
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naturals</title>
 
-    section {
-        padding: 30px 0px;
-    }
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 
-    ul {
-        list-style-type: none;
-    }
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
-    ul li {
-        display: inline-block;
-        padding: 10px 5px;
-    }
 
-    .checkbtn {
-        color: rgb(143, 23, 23);
-        font-size: 30px;
-        display: none;
-        float: left;
-    }
+    <!-- ========================== -->
+    <!-- ==========border======== -->
+    <!-- ========================== -->
 
-    #check {
-        display: none;
-    }
+    <link rel="stylesheet"
+        href="//assets-cdn-refresh.getbento.com/stylesheet/theogdenver-v2-copy/1/scss/main.ec266e9cc8a8de32494868d34b1591f8.scss" />
 
-    /* for mobile */
-    @media(max-width: 952px) {
-     
 
-        ul {
-            position: fixed;
-            height: 100vh;
-            width: 100%;
-            background-color: beige;
-            text-align: center;
-            top: 80px;
-            left: 0;
-            
+
+    <script src="https://www.google.com/recaptcha/api.js?render=6LcM_jgpAAAAALjf-oyMP7LJ4JR0YVdXJBSk5XMm"></script>
+
+    <script type="text/javascript">
+        Modernizr.addTest("maybemobile", function () { return (Modernizr.touchevents && Modernizr.mq("only screen and (max-width: 768px)")) ? true : false; });
+    </script>
+    <!-- ========================== -->
+    <!-- ========================== -->
+    <style>
+        a, a:hover{
+            text-decoration: none;
+        }
+        .btn {
+            background-color: #00AC4E;
+            border-radius: 5px;
+            text-transform: none;
         }
 
-        ul li {
-            display: block;
-            padding: 10px 5px;
+        header {
+            background-color: white;
         }
 
-        #check:checked~ul {
-            left: 0;
-        }
-    }
-    
-    @media(max-width: 858px) {
-        .checkbtn {
-            display: block;
-        }
+        .lookingFor {
 
-        ul {
-            position: fixed;
-            height: 100vh;
-            width: 100%;
-            background-color: beige;
-            text-align: center;
-            top: 80px;
-            left: 0;
-            
+            width: 24vw;
+            height: 6vh;
+            border: 1px solid transparent;
+            background-color: rgba(225, 227, 225, 1.00);
+            border-radius: 5px;
+            padding: 9px;
         }
 
-        ul li {
-            display: block;
-            padding: 10px 5px;
+        .search-button {
+            position: absolute;
+            right: 67px;
+            top: 50%;
+            transform: translateY(-50%);
+            background-color: #00AC4E;
+            border: none;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 5px;
+            height: 5vh;
         }
 
-        #check:checked~ul {
-            left: 0;
+        .search-button i {
+            font-size: 16px;
         }
-    }
 
-</style>
+        .bar {
+            position: relative;
+        }
 
-<section class="pt-0">
-    <header id="header">
-        <div class="container">
-            <div class="row d-flex justify-content-around align-items-center">
+        .container::after {
+            display: none !important;
+        }
 
+        .nav {
+            background-color: #39393F;
 
-
-                <div class="col-md-4 col-3">
-                    <div class="col-md-3">
-                        <a href="<?php echo base_url(); ?>"> <img src="assets/images/logo.png"></a>
-                    </div>
-                </div>
-                <!-- <div class="col-md-7  d-flex justify-content-around">
-                    <div class="col-md-2">
-                        <a href="<?php echo base_url();?>">HOME</a>
-                    </div>
-                    <div class="col-md-2">
-                        <a href="<?php echo base_url(); ?>">MENU</a>
-                    </div>
-                    <div class="col-md-2">
-                        <a href="<?php echo base_url(); ?>">ABOUT US</a>
-                    </div>
-                    <div class="col-md-2">
-                        <a href="<?php echo base_url(); ?>">GET IN TOUCH</a>
-                    </div>
-                </div> -->
+        }
+        ul{
+            list-style-type: none;
+           
+        }
+        .items, .items:hover{
+            color:white;
+            padding:10px 20px;
+            font-size:19px;
+            font-weight: 500;
+        }
+    </style>
 
 
-
-                <div class="col-md-7 col-5 pt-3 d-flex justify-content-end  align-items-center">
-                    <ul>
-                        <li><a href="<?php echo base_url();?>">HOME</a></li>
-
-                        <li><a href="<?php echo base_url(); ?>">MENU</a></li>
-
-                        <li><a href="<?php echo base_url(); ?>">ABOUT US</a></li>
-
-                        <li><a href="<?php echo base_url(); ?>">GET IN TOUCH</a></li>
-                    </ul>
-                </div>
-
-                <div class="col-md-1 col-3">
-                    <input type="checkbox" id="check">
-                    <label for="check" class="checkbtn">
-                        ☰
-                    </label>
-                </div>
-
-            </div>
-        </div>
-    </header>
-</section>
+</head>
 
 
+<body>
+    <header>
+        <section style="padding-top: 40px;">
+            <div class="container pl-0">
+                <div class="row py-4  d-flex justify-content-between">
 
-<!-- navbar -->
-<!-- <section class="pt-0">
-    <header id="header" class="container">
-        <div class="row align-items-center">
-            <div class="col-md-4">
-                <div class="col-md-3">
-                    <a href="<?php echo base_url(); ?>"><img src="assets/images/logo.png"></a>
-                </div>
-            </div>
-            <div class="col-md-8">
-                <nav class="navbar navbar-expand-lg navbar-light">
-                    <div class="container-fluid">
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                            <ul class="navbar-nav">
-                                <li class="nav-item">
-                                    <a class="nav-link" href="<?php echo base_url();?>">HOME</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="<?php echo base_url(); ?>">MENU</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="<?php echo base_url(); ?>">ABOUT US</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="<?php echo base_url(); ?>">GET IN TOUCH</a>
-                                </li>
-                            </ul>
+                    <div class="col-md-5 d-flex align-items-center justify-content-between">
+                        <div class="col-md-6 p-0">
+                            <a href="<?php echo base_url('main')?>"><img src="assets/images/logo.jpg" alt="logo" style="max-width: 100%;"></a>
+                        </div>
+                        <div class="col-md-5  p-0">
+                            <button type="button" class="btn btn-success">Order Now</button>
                         </div>
                     </div>
-                </nav>
+
+                    <div class="col-md-5 bar">
+                        <input type="text" class="lookingFor" name="search" placeholder="I'm looking for..">
+                        <button class="search-button">
+                            <i class="fas fa-search"></i>
+                        </button>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+    </header>
+    <section class="nav">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <ul class="d-flex justify-content-center align-items-center m-2">
+                        <li><a class ="items" href="#">Ingredient Story</a></li>
+                        <li><a class ="items" href="#">Products</a></li>
+                        <li><a class ="items" href="#">Our Legacy</a></li>
+                        <li><a class ="items" href="#">Malai Magic</a></li>
+                        <li><a class ="items" href="#">Franchise Queries</a></li>
+                        <li><a class ="items" href="#">Store Locator</a></li>
+                        <li><a class ="items" href="#">Blogs</a></li>
+                    </ul>
+                  
+                </div>
             </div>
         </div>
-    </header>
-</section>
+    </section>
+</body>
 
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script> -->
+</html>
