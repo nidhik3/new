@@ -32,7 +32,7 @@
         a, a:hover{
             text-decoration: none;
         }
-        .btn {
+        .search-button  {
             background-color: #00AC4E;
             border-radius: 5px;
             text-transform: none;
@@ -41,6 +41,12 @@
         header {
             background-color: white;
         }
+
+        @media (min-width: 769px) {
+        .container {
+            max-width: 1438px;
+        }
+    }
 
         .lookingFor {
 
@@ -54,8 +60,8 @@
 
         .search-button {
             position: absolute;
-            right: 67px;
-            top: 50%;
+            right: 162px;
+            top: 40%;
             transform: translateY(-50%);
             background-color: #00AC4E;
             border: none;
