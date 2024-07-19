@@ -1,424 +1,207 @@
-<link rel="stylesheet" type="text/css"
-    href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
-<link rel="stylesheet" type="text/css"
-    href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
 
-<style>
-    .col-md-1,
-    .col-md-2,
-    .col-md-3,
-    .col-md-4,
-    .col-md-5,
-    .col-md-6,
-    .col-md-7,
-    .col-md-8,
-    .col-md-9,
-    .col-md-10,
-    .col-md-11,
-    .col-md-12 {
-        padding: 0;
-    }
+<body>
 
-    .slider img {
-        max-width: 96%;
-        height: auto;
-        margin-left: 36px;
-    }
-
-    .slick-prev,
-    .slick-next {
-        font-size: 0;
-        /* Hide default text */
-        color: #00AC4E;
-        background: none;
-        border: none;
-        z-index: 1000;
-        cursor: pointer;
-    }
-
-    .slick-prev {
-        left: 80px;
-        z-index: 1000;
-    }
-
-    .slick-next {
-        right: 80px;
-        z-index: 1000;
-    }
-
-    .slick-prev:before,
-    .slick-next:before {
-        content: '';
-    }
-
-    .slick-prev svg,
-    .slick-next svg {
-        fill: #00AC4E;
-        width: 40px;
-        height: 40px;
-    }
-
-    .clr {
-        background-color: rgb(225 227 225);
-        font-family: cursive;
-    }
+ 
+    <section>
+        <div class="image-container">
+            <img src="assets/img/Banner.png" alt="Banner Image" style="width: 100%;height: 100vh;">
+            <p class="bannerH1">Empowering Tomorrow with Sustainable Natural Resource Solutions</p>
+            <a class="htop wTop bannerH2 " href="">learn more</a>
+        </div>   
+    </section>
 
 
-    .story:hover,
-    .content:hover {
-        color: #292929;
-    }
-
-    .space {
-        padding: 40px 0px;
-    }
-
-    .image-wrapper {
-        overflow: hidden;
-    }
-
-    .frame {
-        transition: transform 0.3s ease;
-        /* display: block; */
-        width: 100%;
-        height: auto;
-    }
-
-    .frame:hover {
-        transform: scale(1.1);
-    }
-
-    .heading {
-        font-size: 40px;
-        font-weight: 500;
-        color: #292929;
-    }
-
-    .content {
-        text-transform: uppercase;
-        color: #292929;
-        padding: 0;
-    }
-
-    .contentBox {
-        text-align: center;
-
-    }
-
-    .card {
-        padding: 0;
-        width: 23%;
-        height:55vh;
-    }
-
-    .card:last-child {
-        margin-bottom: 3rem;
-    }
-
-    @media (min-width: 769px) {
-        .container {
-            max-width: 1438px;
-        }
-    }
-
-    .buyButton {
-        padding: 4px 21px;
-        background-color: #00AC4E;
-    }
-
-    .moreButton {
-        padding: 4px 21px;
-        background-color: #757776;
-        color: white;
-    }
-
-    .Top{
-        padding:40px 0px 5px 0px;
-    }
-    .buttons {
-        display: none !important;
-    }
-
-    .card:hover .buttons {
-            display: flex !important; 
-        }
-</style>
-
-
-<!-- slider -->
-<section class="slider">
-    <div><img src="assets/images/Mango.jpg" alt="Mango"></div>
-    <div><img src="assets/images/guava.jpg" alt="guava"></div>
-    <div><img src="assets/images/Pineapple.jpg" alt="Pineapple"></div>
-    <div><img src="assets/images/origin.jpg" alt="Origin"></div>
-    <div><img src="assets/images/Peach.jpg" alt="Peach"></div>
-    <div><img src="assets/images/tender.jpg" alt="Tender"></div>
-    <div><img src="assets/images/Pinacolada.jpg" alt="Pina Colada"></div>
-</section>
-
-
-<!-- vedio -->
-<section class="clr">
-    <div class="container space">
-        <div class="row">
-            <div class="col-md-12 text-center">
-                <a class="story heading" href="https://www.youtube.com/@naturalicecreams1984">40 years of scooping up
-                    love -
-                    Story of Naturals Ice Cream</a>
+    <!-- about us -->
+    <section style="background-color: #042338;">
+        <div class="container space-y">
+            <div class="row d-flex justify-content-around">
+                <div class="col-md-5">
+                    <h5 class="tag1" style="color: white;">Who we are</h5>
+                    <h5 class="tag2" style="color: white;">About us</h5>
+                    <p class="tag-para py-4">ADMOG Holding Corp. is a leading natural resources holding company
+                        dedicated to the exploration, development of scalable natural resources projects. With a
+                        strategic focus on the metals sector, we are committed to delivering sustainable value through
+                        innovative practices, responsible resource management, and a robust trading platform.</p>
+                    <a class="htop wTop  " href="">mission & vision</a>
+                </div>
+                <div class="col-md-4">
+                    <img src="assets/img/about-img.png" alt="">
+                </div>
             </div>
         </div>
-    </div>
+    </section>
+    <!-- about us -->
 
-    <div class="container text-center ">
-        <iframe width="80%" height="515" src="https://www.youtube.com/embed/NBeNtpyRSm8?si=G9lAt_p2c4FyvBHF"
-            title="YouTube video player" frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-    </div>
-</section>
+    <!-- our services -->
+    <section>
+        <div class="container space-y">
+            <div class="row d-flex justify-content-around ">
+                <div class="col-md-5">
+                    <h5 class="tag1">our</h5>
+                </div>
+                <div class="col-md-5"></div>
 
-
-<!-- frame -->
-<section class="space clr">
-    <div class="container" style="max-width: 1500px;">
-        <div class="row">
-            <div class="col-md-6 p-2">
-                <a href="https://www.instagram.com/naturalicecream/" target="_blank">
-                    <div class="image-wrapper">
-                        <img src="assets/images/f1.jpg" alt="img" class="frame">
-                    </div>
-                </a>
-            </div>
-            <div class="col-md-6 p-2">
-                <a href="https://www.instagram.com/naturalicecream/" target="_blank">
-                    <div class="image-wrapper">
-                        <img src="assets/images/f2.jpg" alt="img" class="frame">
-                    </div>
-                </a>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-6 p-2">
-                <a href="https://www.instagram.com/naturalicecream/" target="_blank">
-                    <div class="image-wrapper">
-                        <img src="assets/images/f3.jpg" alt="img" class="frame">
-                    </div>
-                </a>
-            </div>
-            <div class="col-md-6 p-2">
-                <a href="https://www.instagram.com/naturalicecream/" target="_blank">
-                    <div class="image-wrapper">
-                        <img src="assets/images/f4.jpg" alt="img" class="frame">
-                    </div>
-                </a>
-            </div>
-        </div>
-    </div>
-</section>
-
-
-<!-- BEST SELLERS -->
-<section class="clr space">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12 text-center">
-                <h7 class="heading">BEST SELLERS</h7>
-            </div>
-        </div>
-
-        <div class="row d-flex justify-content-between">
-
-            <div class="col-md-3 card">
-                <a href="https://www.instagram.com/naturalicecream/" >
-                    <div class="image-wrapper">
-                        <img src="assets/images/c1.jpg" alt="img" class="frame">
-                    </div>
-                    <div class="contentBox  Top">
-                        <a href="" class="content">mango ice cream</a>
-                    </div>
-                    <div class="row  buttons d-flex justify-content-center">
-                        <div class="col-md-3">
-                            <button type="button" class="btn btn-success buyButton">Buy</button>
-                        </div>
-                        <div class="col-md-4">
-                            <button type="button" class="btn btn-secondary moreButton">Read More</button>
-                        </div>
-                    </div>
-                </a>
+                <div class="col-md-5">
+                    <h5 class="tag2">services</h5>
+                </div>
+                <div class="col-md-5"></div>
             </div>
 
-            <div class="col-md-3 card">
-                <a href="https://www.instagram.com/naturalicecream/" >
-                    <div class="image-wrapper">
-                        <img src="assets/images/c2.jpg" alt="img" class="frame">
+            <div class="row d-flex justify-content-around space">
+                <div class="col-md-3 pictures">
+                    <div class="image-container2">
+                        <img src="assets/img/s1.png" alt="" class="pro">
                     </div>
-                    <div class="contentBox  Top">
-                        <a href="" class="content">sitaphal ice cream</a>
+                    <h3 class="pheading">Exploration</h3>
+                    <p class="s-para pb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit quo laboriosam asperiores</p>
+                    <div class="row pt-4 d-flex justify-content-center">
+                        <a class="htop blue-white col-md-6" href="">
+                            learn more
+                        </a>
                     </div>
-                    <div class="row  buttons d-flex justify-content-center">
-                        <div class="col-md-3">
-                            <button type="button" class="btn btn-success buyButton">Buy</button>
-                        </div>
-                        <div class="col-md-4">
-                            <button type="button" class="btn btn-secondary moreButton">Read More</button>
-                        </div>
-                    </div>
-                </a>
-            </div>
-
-            <div class="col-md-3 card">
-                <a href="https://www.instagram.com/naturalicecream/" >
-                    <div class="image-wrapper">
-                        <img src="assets/images/c3.jpg" alt="img" class="frame">
-                    </div>
-                    <div class="contentBox  Top">
-                        <a href="" class="content">strawberry ice cream</a>
-                    </div>
-                    <div class="row  buttons d-flex justify-content-center">
-                        <div class="col-md-3">
-                            <button type="button" class="btn btn-success buyButton">Buy</button>
-                        </div>
-                        <div class="col-md-4">
-                            <button type="button" class="btn btn-secondary moreButton">Read More</button>
-                        </div>
-                    </div>
-                </a>
-            </div>
-
-            <div class="col-md-3 card">
-                <a href="https://www.instagram.com/naturalicecream/" >
-                    <div class="image-wrapper">
-                        <img src="assets/images/c4.jpg" alt="img" class="frame">
-                    </div>
-                    <div class="contentBox  Top">
-                        <a href="" class="content">black grapes ice cream</a>
-                    </div>
-                    <div class="row  buttons d-flex justify-content-center">
-                        <div class="col-md-3">
-                            <button type="button" class="btn btn-success buyButton">Buy</button>
-                        </div>
-                        <div class="col-md-4">
-                            <button type="button" class="btn btn-secondary moreButton">Read More</button>
-                        </div>
-                    </div>
-                </a>
-            </div>
-
-          
-        </div>
-
-        <div class="row d-flex justify-content-between">
-
-            <div class="col-md-3 card">
-                <a href="https://www.instagram.com/naturalicecream/" >
-                    <div class="image-wrapper">
-                        <img src="assets/images/c5.jpg" alt="img" class="frame">
-                    </div>
-                    <div class="contentBox  Top">
-                        <a href="" class="content">papaya pineapple ice cream</a>
-                    </div>
-                    <div class="row  buttons d-flex justify-content-center">
-                        <div class="col-md-3">
-                            <button type="button" class="btn btn-success buyButton">Buy</button>
-                        </div>
-                        <div class="col-md-4">
-                            <button type="button" class="btn btn-secondary moreButton">Read More</button>
-                        </div>
-                    </div>
-                </a>
-            </div>
-
-            <div class="col-md-3 card">
-                <a href="https://www.instagram.com/naturalicecream/" >
-                    <div class="image-wrapper">
-                        <img src="assets/images/c6.jpg" alt="img" class="frame">
-                    </div>
-                    <div class="contentBox  Top">
-                        <a href="" class="content">muskmelon ice cream</a>
-                    </div>
-                    <div class="row  buttons d-flex justify-content-center">
-                        <div class="col-md-3">
-                            <button type="button" class="btn btn-success buyButton">Buy</button>
-                        </div>
-                        <div class="col-md-4">
-                            <button type="button" class="btn btn-secondary moreButton">Read More</button>
-                        </div>
-                    </div>
-                </a>
-            </div>
-
-            <div class="col-md-3 card">
-                <a href="https://www.instagram.com/naturalicecream/" >
-                    <div class="image-wrapper">
-                        <img src="assets/images/c7.jpg" alt="img" class="frame">
-                    </div>
-                    <div class="contentBox  Top">
-                        <a href="" class="content">watermelom ice cream</a>
-                    </div>
-                    <div class="row  buttons d-flex justify-content-center">
-                        <div class="col-md-3">
-                            <button type="button" class="btn btn-success buyButton">Buy</button>
-                        </div>
-                        <div class="col-md-4">
-                            <button type="button" class="btn btn-secondary moreButton">Read More</button>
-                        </div>
-                    </div>
-                </a>
-            </div>
-
-            <div class="col-md-3 card">
-                <a href="https://www.instagram.com/naturalicecream/" >
-                    <div class="image-wrapper">
-                        <img src="assets/images/c8.jpg" alt="img" class="frame">
-                    </div>
-                    <div class="contentBox  Top">
-                        <a href="" class="content">chikoo ice cream</a>
-                    </div>
-                    <div class="row  buttons d-flex justify-content-center">
-                        <div class="col-md-3">
-                            <button type="button" class="btn btn-success buyButton">Buy</button>
-                        </div>
-                        <div class="col-md-4">
-                            <button type="button" class="btn btn-secondary moreButton">Read More</button>
-                        </div>
-                    </div>
-                </a>
-            </div>
-
-          
-        </div>
+                </div>
         
-    </div>
+                <div class="col-md-3 pictures">
+                    <div class="image-container2">
+                        <img src="assets/img/s2.png" alt="" class="pro">
+                    </div>
+                    <h3 class="pheading">Extraction</h3>
+                    <p class="s-para pb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit quo laboriosam asperiores</p>
+                    <div class="row pt-4 d-flex justify-content-center">
+                        <a class="htop blue-white col-md-6" href="">
+                            learn more
+                        </a>
+                    </div>
+                </div>
+        
+                <div class="col-md-3 pictures">
+                    <div class="image-container2">
+                        <img src="assets/img/s3.png" alt="" class="pro">
+                    </div>
+                    <h3 class="pheading">Metals Trading</h3>
+                    <p class="s-para pb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit quo laboriosam asperiores</p>
+                    <div class="row pt-4 d-flex justify-content-center">
+                        <a class="htop blue-white col-md-6" href="">
+                            learn more
+                        </a>
+                    </div>
+                </div>
+            </div>
 
-</section>
+                <!-- ========= -->
+                <!-- <div class="col-md-3 pictures">
+                       <div class="image-container2">
+                        <img src="assets/img/s5.png" alt="" class="pro">
+                    </div>
+                    <h3 class="pheading">Production</h3>
+                    <p class="s-para pb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit quo laboriosam
+                        asperiores</p>
+                    <div class="row pt-4 d-flex justify-content-center ">
+                        <a class="htop blue-white col-md-6 " href="">
+                            learn more
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-md-3 pictures">
+                       <div class="image-container2">
+                        <img src="assets/img/s5.png" alt="" class="pro">
+                    </div>
+                    <h3 class="pheading">Distribution</h3>
+                    <p class="s-para pb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit quo laboriosam
+                        asperiores</p>
+                    <div class="row pt-4 d-flex justify-content-center ">
+                        <a class="htop blue-white col-md-6 " href="">
+                            learn more
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-md-3 pictures">
+                       <div class="image-container2">
+                        <img src="assets/img/s6.png" alt="" class="pro">
+                    </div>
+                    <h3 class="pheading">Service</h3>
+                    <p class="s-para pb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit quo laboriosam
+                        asperiores</p>
+                    <div class="row pt-4 d-flex justify-content-center ">
+                        <a class="htop blue-white col-md-6 " href="">
+                            learn more
+                        </a>
+                    </div>
+                </div> -->
+
+            </div>
+        </div>
+    </section>
+    <!-- our services -->
+
+    <!-- key projects -->
+    <section>
+        <div class="container space-y">
+            <div class="row d-flex justify-content-around ">
+                <div class="col-md-5">
+                    <h5 class="tag1"> key</h5>
+                </div>
+                <div class="col-md-5"></div>
 
 
+                <div class="col-md-5">
+                    <h5 class="tag2">Projects</h5>
+                </div>
+                <div class="col-md-5"></div>
+            </div>
 
+            <div class="row d-flex justify-content-around space">
 
+                <div class="col-md-5 pictures">
+                    <img src="assets/img/project1.png" alt="" class="pro">
+                    <p class="p-para ">Located in [Region], this project focuses on [specific metal or resource]. With
+                        estimated reserves of [quantity], it represents a cornerstone of our development strategy.</p>
+                    <div class="row " style="padding-left: 16px;">
+                        <a class="htop blue-white col-md-4 " href="">
+                            see details
+                        </a>
+                    </div>
 
+                </div>
 
+                <div class="col-md-5 pictures">
+                    <img src="assets/img/project2.png" alt="" class="pro">
+                    <p class="p-para ">Situated in [Region], this initiative targets [specific metal or resource]. Our
+                        preliminary exploration results indicate substantial deposits, positioning it as a future
+                        flagship operation.</p>
+                    <div class="row" style="padding-left: 16px;">
+                        <a class="htop blue-white col-md-4 " href="">
+                            see details
+                        </a>
+                    </div>
+                </div>
 
+            </div>
+        </div>
+    </section>
+    <!--  key projects  -->
 
+    <!-- join us -->
+    <section>
+        <div class="banner-container ">
+            <img src="assets/img/join-banner.png" alt="" class="banner-image" style="height: 60vh;">
+            <div class="banner-content ">
+                <p class="j-bannerH1 j1">Join us!</p>
+                <p class="j-bannerH1 j2 pt-3 pb-5 ">
+                    We invite<b> investors, partners, and stakeholders</b> to join us on our journey as we explore new
+                    horizons, develop valuable resources, and drive sustainable growth in the natural resources
+                    industry. Together, we can unlock the potential of our planet's wealth responsibly and profitably.
+                </p>
+                <a class="htop blue-white" href="" style="font-size: 19px;">Contact us now</a>
+            </div>
+        </div>
 
+    </section>
+    <!-- join us -->
 
+  
+</body>
 
-
-
-
-<!-- jQuery CDN -->
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<!-- Slick Slider JS CDN -->
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
-<script type="text/javascript">
-    $(document).ready(function () {
-        $('.slider').slick({
-            infinite: true,
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            autoplay: true,
-            autoplaySpeed: 3000,
-            prevArrow: '<button type="button" class="slick-prev"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"/></svg></button>',
-            nextArrow: '<button type="button" class="slick-next"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59 16.59L10 18l6-6-6-6-1.41 1.41L13.17 12z"/></svg></button>'
-        });
-    });
-</script>
+</html>
