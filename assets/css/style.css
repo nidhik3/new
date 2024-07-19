@@ -112,7 +112,7 @@ a, a:hover{
     text-align: center;
     border: 1px solid white;
     font-weight: 500;
-    padding: 8px 18px 8px 18px;
+    padding: 8px 20px 8px 20px;
     transition: background-color 0.5s ease 0.5s, color 0.5s ease 0.5s, font-weight 0.5s ease 0.5s;
     transition: border-color 0.5s ease;
   }
@@ -172,7 +172,7 @@ a, a:hover{
     
 } */
 
-.bannerH1, .bannerH2 {
+.bannerH1, .bannerH2 , .bannerp {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
@@ -183,14 +183,17 @@ a, a:hover{
 }
 
 .bannerH1 {
-    top: 30%; /* Adjust as needed */
-    font-size: 40px;
+    top: 30%; 
+    font-size: 45px;
     font-weight: 600;
-    text-transform: uppercase;
 }
 
 .bannerH2 {
-    top: 59%; /* Adjust as needed */
+    top: 64%; 
+}
+.bannerp {
+    top: 54%; 
+    font-size: 19px;
 }
 
 

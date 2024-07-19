@@ -21,16 +21,16 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-2 text-center pt-0">
-                    <a class="htop h1logo row" href="index.html">ADMOG </a>
-                    <a class="htop h2logo row" style="padding-left: 14px;margin-top:-14px" href="index.html">Holding</a>
+                    <a class="htop h1logo row" href="main">ADMOG </a>
+                    <a class="htop h2logo row" style="padding-left: 14px;margin-top:-14px" href="main">Holding</a>
                 </div>
                 <div class="col-md-2"></div>
                 <div class="col-md-8 d-flex justify-content-between align-items-center pt-0">
                     <div class="col-md-2">
-                        <a class="htop" href="index.html">Home</a>
+                        <a class="htop" href="main">Home</a>
                     </div>
                     <div class="col-md-2">
-                        <a class="htop" href="about.html">About Us</a>
+                        <a class="htop" href="about">About Us</a>
                     </div>
                     <div class="col-md-2">
                         <a class="htop" href="services.html">projects</a>
