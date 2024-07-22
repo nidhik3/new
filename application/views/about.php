@@ -91,8 +91,11 @@
             <div class="col-md-2"></div>
             <div class="col-md-8 text-center">
                 <h5 class="tag1">CORPORATE</h5>
-                 <h5 class="tag2">GOVERNANCE</h5>
-                <p class="p-para">Our corporate governance framework is designed to uphold the highest standards of transparency, accountability, and integrity. Our team comprises experienced professionals with diverse backgrounds in mining, finance, and corporate management. We are dedicated to maintaining robust ethical standards in all our dealings.</p>
+                <h5 class="tag2">GOVERNANCE</h5>
+                <p class="p-para">Our corporate governance framework is designed to uphold the highest standards of
+                    transparency, accountability, and integrity. Our team comprises experienced professionals with
+                    diverse backgrounds in mining, finance, and corporate management. We are dedicated to maintaining
+                    robust ethical standards in all our dealings.</p>
             </div>
             <div class="col-md-2"></div>
         </div>
@@ -129,24 +132,24 @@
                 <h5 class="tag1 u pt-5">Victor Torres</h5>
                 <p class="u corporate pt-1">Senior Geologist</p>
             </div>
-          
-       
+
+
         </div>
     </div>
 </section>
 
 <!-- get in touch -->
 <section>
-        <div class="banner-container ">
-            <img src="assets/img/blue-banner.png" alt="" class="banner-image" style="height: 60vh;">
-            <div class="banner-content blue-banner  ">
-                <p class="j-bannerH1 j1">get in touch</p>
-                <p class="j-bannerH1 j2 pt-3 pb-5 ">
-                    To learn more about our services or to discuss potential partnerships, please contact us. Our team is ready to assist you with any inquiries you may have.
-                </p>
-                <a class="htop wTop" href="" style="font-size: 19px;">Contact us now</a>
-            </div>
+    <div class="banner-container ">
+        <img src="assets/img/blue-banner.png" alt="" class="banner-image" style="height: 60vh;">
+        <div class="banner-content blue-banner  ">
+            <p class="j-bannerH1 j1">get in touch</p>
+            <p class="j-bannerH1 j2 pt-3 pb-5 ">
+                To learn more about our services or to discuss potential partnerships, please contact us. Our team is
+                ready to assist you with any inquiries you may have.
+            </p>
+            <a class="htop wTop" href="" style="font-size: 19px;">Contact us now</a>
         </div>
+    </div>
 
-    </section>
- 
+</section>

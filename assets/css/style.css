@@ -177,7 +177,7 @@ a, a:hover{
     
 } */
 
-.bannerH1, .bannerH2 , .bannerp {
+.bannerH1, .bannerH2 , .bannerp, .bannerH3 {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
@@ -189,6 +189,12 @@ a, a:hover{
 
 .bannerH1 {
   top: 35%;
+    font-size: 45px;
+    font-weight: 600;
+    width: 60%;
+}
+.bannerH3 {
+  top: 45%;
     font-size: 45px;
     font-weight: 600;
     width: 60%;
@@ -396,6 +402,29 @@ li {
   .blue-banner{
    color:white !important;
   }
+
+  .img-1 {
+    position: relative;
+    text-align: center;
+}
+
+.img-1 img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.p-text {
+    position: absolute;
+    bottom: 10px; /* Adjust as needed */
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    font-size: 25px; /* Adjust as needed */
+    padding: 5px; /* Optional: Add padding */
+    text-align: start;
+}
+
 
 
 
