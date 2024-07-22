@@ -72,6 +72,11 @@
   }
 /* font family */
 
+
+
+.u{
+  text-transform: uppercase;
+}
 *{
     font-family:"Bai Jamjuree", sans-serif;
 }
@@ -183,17 +188,19 @@ a, a:hover{
 }
 
 .bannerH1 {
-    top: 30%; 
+  top: 35%;
     font-size: 45px;
     font-weight: 600;
+    width: 60%;
 }
 
 .bannerH2 {
-    top: 64%; 
+    top: 66%; 
 }
 .bannerp {
-    top: 54%; 
-    font-size: 19px;
+    top: 57%; 
+    font-size: 18px;
+    font-weight: 500;
 }
 
 
@@ -202,12 +209,12 @@ a, a:hover{
 .tag1{
     text-transform: uppercase;
     color: black;
-    font-size: 27px;
+    font-size: 26px;
 }
 .tag2{
     text-transform: uppercase;
     color: black;
-    font-size: 56px;
+    font-size: 55px;
 }
 .tag-para{
     color: white;
@@ -272,7 +279,7 @@ a, a:hover{
   /* ====== join us */
 
   .p-para{
-    font-size: 17px;
+    font-size: 18px;
     font-weight: 600;
     padding: 30px 0 15px 0;
   }
@@ -378,6 +385,16 @@ li {
     font-weight: 500;
     padding: 8px 18px 8px 18px;
     font-size: 15px;
+  }
+
+  .corporate{
+    font-size: 15px;
+    font-weight: 500;
+    color: #707070;
+  }
+
+  .blue-banner{
+   color:white !important;
   }
 
 

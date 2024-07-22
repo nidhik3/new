@@ -98,7 +98,7 @@
 
                 <div class="row d-flex justify-content-center">
                     <div class="copyright col-md-4 text-center">
-                        &copy; 2024 ADMOGH Holding. All rights reserved.
+                        &copy; 2024 ADMOG Holding. All rights reserved.
                     </div>
                 </div>
 

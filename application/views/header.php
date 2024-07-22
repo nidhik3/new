@@ -14,6 +14,11 @@
         href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet"> -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </head>
 
 <body>
@@ -33,16 +38,16 @@
                         <a class="htop" href="about">About Us</a>
                     </div>
                     <div class="col-md-2">
-                        <a class="htop" href="services.html">projects</a>
+                        <a class="htop" href="project">projects</a>
                     </div>
                     <div class="col-md-2">
-                        <a class="htop" href="services.html">Services</a>
+                        <a class="htop" href="service">Services</a>
                     </div>
                     <div class="col-md-2">
-                        <a class="htop" href="shop.html">news</a>
+                        <a class="htop" href="news">news</a>
                     </div>
                     <div class="col-md-3">
-                        <a class="htop wTop" href="shop.html">contact us</a>
+                        <a class="htop wTop" href="contact">contact us</a>
                     </div>
                 </div>
             </div>
@@ -51,4 +56,5 @@
     </header>
 </body>
 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </html>
