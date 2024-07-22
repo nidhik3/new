@@ -19,7 +19,7 @@
             </div>
             <div class="row pt-4 d-flex justify-content-center"></div>
         </div>
-    
+
         <div class="col-md-3">
             <div class="img-1 position-relative">
                 <img src="assets/img/s2.png" alt="" class="pro">
@@ -27,7 +27,7 @@
             </div>
             <div class="row pt-4 d-flex justify-content-center"></div>
         </div>
-    
+
         <div class="col-md-3">
             <div class="img-1 position-relative">
                 <img src="assets/img/s3.png" alt="" class="pro">
@@ -36,7 +36,7 @@
             <div class="row pt-4 d-flex justify-content-center"></div>
         </div>
     </div>
-    
+
     <div class="row d-flex justify-content-around space">
         <div class="col-md-3">
             <div class="img-1 position-relative">
@@ -45,7 +45,7 @@
             </div>
             <div class="row pt-4 d-flex justify-content-center"></div>
         </div>
-    
+
         <div class="col-md-3">
             <div class="img-1 position-relative">
                 <img src="assets/img/s5.png" alt="" class="pro">
@@ -53,7 +53,7 @@
             </div>
             <div class="row pt-4 d-flex justify-content-center"></div>
         </div>
-    
+
         <div class="col-md-3">
             <div class="img-1 position-relative">
                 <img src="assets/img/s6.png" alt="" class="pro">
@@ -62,11 +62,48 @@
             <div class="row pt-4 d-flex justify-content-center"></div>
         </div>
     </div>
-    
+
 
 </section>
 
 
+<!-- highlights -->
+<section class="space-y">
+    <div class="container space">
+        <div class="row d-flex justify-content-around ">
+            <div class="col-md-5">
+                <h5 class="tag1"> key</h5>
+            </div>
+            <div class="col-md-5"></div>
+
+
+            <div class="col-md-5">
+                <h5 class="tag2">highlights</h5>
+            </div>
+            <div class="col-md-5"></div>
+        </div>
+    </div>
+    <div class="container ">
+        <div class="row d-flex justify-content-around">
+            <div class="col-md-3">
+                <img src="assets/img/highlight1.png" alt="">
+                <p class="p-paraH m-0">Advanced Technology</p>
+                <p class="p-para p-0">Utilizing the latest refining technologies for optimal efficiency and quality.</p>
+            </div>
+            <div class="col-md-3">
+                <img src="assets/img/highlight2.png" alt="">
+                <p class="p-paraH m-0">Safety Standards</p>
+                <p  class="p-para p-0">Adhering to strict safety protocols to protect our workers and the environment.</p>
+            </div>
+            <div class="col-md-3">
+                <img src="assets/img/highlight3.png" alt="">
+                <p class="p-paraH m-0">Environmental Compliance</p>
+                <p  class="p-para p-0">Meeting and exceeding environmental regulations to minimize our footprint.</p>
+            </div>
+           
+        </div>
+    </div>
+</section>
 
 
 
