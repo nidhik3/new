@@ -285,7 +285,7 @@ a, a:hover{
   /* ====== join us */
 
   .p-para{
-    font-size: 18px;
+    font-size: 17px;
     font-weight: 600;
     padding: 30px 0 15px 0;
   }
@@ -431,5 +431,26 @@ li {
 }
 
 
+.uHeading{
+  font-size: 32px;
+    font-weight: 600;
+}
+.form-control {
+  display: block;
+  width: 79%  !important;
+  height: 6vh !important;
+  background-color: #f5f5f5;
 
-
+}
+.form-controls {
+  display: block;
+  width: 79%  !important;
+  height: 10vh !important;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #f5f5f5;
+  border: 1px solid #ced4da;
+}
