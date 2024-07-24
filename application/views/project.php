@@ -1,7 +1,7 @@
 <!-- banner -->
 <section>
     <div class="image-container">
-        <img src="assets/img/Banner.png" alt="Banner Image" style="width: 100%;height: 80vh;">
+        <img src="assets/img/Projectsbanner.png" alt="Banner Image" style="width: 100%;height: 80vh;">
         <p class="bannerH3">Projects</p>
 
     </div>
@@ -23,7 +23,11 @@
             <div class="col-md-5"></div>
         </div>
 
-        <div class="row d-flex justify-content-around space">
+
+        <div class="soon d-flex justify-content-center align-items-center" style="height:70vh; width:100%; background-color:#E5E5E5; color:#252323;">
+            <H1>COMING SOON</H1>
+        </div>
+        <!-- <div class="row d-flex justify-content-around space">
 
             <div class="col-md-5 pictures">
                 <img src="assets/img/project1.png" alt="" class="p">
@@ -104,7 +108,7 @@
                 </div>
             </div>
 
-        </div>
+        </div> -->
 
     </div>
 </section>

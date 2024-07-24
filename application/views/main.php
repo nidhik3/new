@@ -2,7 +2,7 @@
 
     <section>
         <div class="image-container">
-            <img src="assets/img/Banner.png" alt="Banner Image" style="width: 100%;height: 100vh;">
+            <img src="assets/img/Homebanner.png" alt="Banner Image" style="width: 100%;height: 100vh;">
             <p class="bannerH1">Empowering Tomorrow with Sustainable Natural Resource Solutions</p>
             <p class="bannerp ">Leading the way in responsible exploration, development, and trading of natural
                 resources.</p>
@@ -49,7 +49,7 @@
 
             <div>
 
-                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <!-- <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
                             <div class="row d-flex justify-content-around space">
@@ -60,8 +60,11 @@
                                     <h3 class="pheading">Exploration</h3>
                                     <p class="s-para pb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit
                                         quo laboriosam asperiores</p>
-                                    <div class="row pt-4 d-flex justify-content-center">
-                                        <a class="htop blue-white col-md-6" href="">learn more</a>
+                                    <div class="row pt-4 d-flex justify-content-center text-center">
+                                        <div class="col-md-6">
+                                            <a class="htop blue-white" href="">learn more</a>
+                                        </div>
+
                                     </div>
                                 </div>
                                 <div class="col-md-3 pictures">
@@ -72,7 +75,9 @@
                                     <p class="s-para pb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit
                                         quo laboriosam asperiores</p>
                                     <div class="row pt-4 d-flex justify-content-center">
-                                        <a class="htop blue-white col-md-6" href="">learn more</a>
+                                          <div class="col-md-6">
+                                            <a class="htop blue-white" href="">learn more</a>
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="col-md-3 pictures">
@@ -83,7 +88,9 @@
                                     <p class="s-para pb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit
                                         quo laboriosam asperiores</p>
                                     <div class="row pt-4 d-flex justify-content-center">
-                                        <a class="htop blue-white col-md-6" href="">learn more</a>
+                                          <div class="col-md-6">
+                                            <a class="htop blue-white" href="">learn more</a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -98,7 +105,9 @@
                                     <p class="s-para pb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit
                                         quo laboriosam asperiores</p>
                                     <div class="row pt-4 d-flex justify-content-center">
-                                        <a class="htop blue-white col-md-6" href="">learn more</a>
+                                          <div class="col-md-6">
+                                            <a class="htop blue-white" href="">learn more</a>
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="col-md-3 pictures">
@@ -109,7 +118,9 @@
                                     <p class="s-para pb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit
                                         quo laboriosam asperiores</p>
                                     <div class="row pt-4 d-flex justify-content-center">
-                                        <a class="htop blue-white col-md-6" href="">learn more</a>
+                                          <div class="col-md-6">
+                                            <a class="htop blue-white" href="">learn more</a>
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="col-md-3 pictures">
@@ -120,7 +131,9 @@
                                     <p class="s-para pb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit
                                         quo laboriosam asperiores</p>
                                     <div class="row pt-4 d-flex justify-content-center">
-                                        <a class="htop blue-white col-md-6" href="">learn more</a>
+                                          <div class="col-md-6">
+                                            <a class="htop blue-white" href="">learn more</a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -134,10 +147,10 @@
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="sr-only">Next</span>
                     </a>
-                </div>
+                </div> -->
             </div>
 
-            <!-- <div class="row d-flex justify-content-around space">
+          <div class="row d-flex justify-content-around space">
                 <div class="col-md-3 pictures">
                     <div class="image-container2">
                         <img src="assets/img/s1.png" alt="" class="pro">
@@ -178,7 +191,7 @@
                 </div>
             </div>
 
-            <div class="row d-flex justify-content-around space">
+             <!--  <div class="row d-flex justify-content-around space">
                
                 <div class="col-md-3 pictures">
                        <div class="image-container2">

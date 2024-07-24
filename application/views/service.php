@@ -1,7 +1,7 @@
 <!-- banner -->
 <section>
     <div class="image-container">
-        <img src="assets/img/Banner.png" alt="Banner Image" style="width: 100%;height: 80vh;">
+        <img src="assets/img/Servicesbanner.png" alt="Banner Image" style="width: 100%;height: 80vh;">
         <p class="bannerH3">Services</p>
 
     </div>
@@ -10,7 +10,8 @@
 
 <!-- services -->
 
-<section class="space">
+
+<section >
     <div class="row d-flex justify-content-around space">
        
 
@@ -23,8 +24,6 @@
                     <h3 >Exploration</h3>
                     <img  src="assets/img/Arrow.png" style="width:60px; margin-top:-7px" alt="">
                     </div>
-                
-
                 </div>
                 
             </div>
@@ -62,7 +61,7 @@
         </div>
     </div>
 
-    <div class="row d-flex justify-content-around space">
+    <!-- <div class="row d-flex justify-content-around space">
         <div class="col-md-3">
             <div class="img-1 position-relative">
                 <img src="assets/img/s5.png" alt="" class="pro">
@@ -102,7 +101,7 @@
             </div>
             <div class="row pt-4 d-flex justify-content-center"></div>
         </div>
-    </div>
+    </div> -->
 
 
 </section>

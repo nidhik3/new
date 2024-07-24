@@ -65,13 +65,13 @@
                     <div class="col-md-3">
                         <h3 class="sub-heading">QUICK LINKS</h3>
                         <ul class="custom-list p-0">
-                            <li class="qlinks"><a>Home</a> </li>
-                            <li class="qlinks"><a>About Us</a></li>
-                            <li class="qlinks"><a>Services</a></li>
-                            <li class="qlinks"><a>Projects</a> </li>
-                            <li class="qlinks"><a>Metal Trading</a></li>
-                            <li class="qlinks"><a>Sustainabolity</a></li>
-                            <li class="qlinks"><a>Contact Us</a></li>
+                            <li class="qlinks"><a href="main">Home</a> </li>
+                            <li class="qlinks"><a href="about">About Us</a></li>
+                            <li class="qlinks"><a href="service">Services</a></li>
+                            <li class="qlinks"><a href="project">Projects</a> </li>
+                            <li class="qlinks"><a href="">Metal Trading</a></li>
+                            <li class="qlinks"><a href="">Sustainability</a></li>
+                            <li class="qlinks"><a href="contact">Contact Us</a></li>
                         </ul>
                     </div>
 

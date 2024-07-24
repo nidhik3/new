@@ -1,7 +1,7 @@
 <!-- banner -->
 <section>
     <div class="image-container">
-        <img src="assets/img/Banner.png" alt="Banner Image" style="width: 100%;height: 80vh;">
+        <img src="assets/img/Contactbanner.png" alt="Banner Image" style="width: 100%;height: 80vh;">
         <p class="bannerH3">Contact Us</p>
 
     </div>

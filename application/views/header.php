@@ -31,7 +31,7 @@
                 </div>
                 <div class="col-md-2"></div>
                 <div class="col-md-8 d-flex justify-content-between align-items-center pt-0">
-                    <div class="col-md-2">
+                    <div class="col-md-2 text-center">
                         <a class="htop" href="main">Home</a>
                     </div>
                     <div class="col-md-2">
@@ -47,7 +47,7 @@
                         <a class="htop" href="news">news</a>
                     </div>
                     <div class="col-md-3">
-                        <a class="htop wTop" href="contact">contact us</a>
+                        <a class="htop blue" href="contact">contact us</a>
                     </div>
                 </div>
             </div>
