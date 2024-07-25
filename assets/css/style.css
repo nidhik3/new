@@ -72,9 +72,9 @@
   }
 /* font family */
 
-html{
+/* html{
   border: 2px solid red;
-}
+} */
 
 
 .u{
@@ -98,7 +98,7 @@ a, a:hover{
 }
  
 
-.htop, .htop:hover{
+.htop{
     text-transform: uppercase;
     color: #1A406D;
     font-weight: 600;
@@ -170,9 +170,13 @@ a, a:hover{
 }
 
 #header.solid {
-    background-color: rgba(0, 0, 0, 0.5); /* Slight transparent background */
-    color:white;
+  background-color: rgba(0, 0, 0, 0.5); /* Slight transparent background */
+ 
 }
+#header.solid .htop {
+  color: white;
+}
+
 
 .image-container {
     position: relative;
@@ -215,7 +219,7 @@ a, a:hover{
 }
 .bannerp {
     top: 57%; 
-    font-size: 17px;
+    font-size: 18px;
     font-weight: 500;
 }
 
@@ -325,7 +329,9 @@ a, a:hover{
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    color: black; /* Adjust the color as needed */
+    color: black;
+    width: 60%;
+
 }
 
 .j-bannerH1 {
@@ -462,3 +468,53 @@ li {
   background-color: #f5f5f5;
   border: 1px solid #ced4da;
 }
+
+
+/* ====popop========== */
+.popup {
+  display: none; /* Hide popup by default */
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  border: 1px solid #ddd;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+}
+
+.popup-content {
+  display: flex;
+}
+
+.popup-img img {
+  max-width: 100%;
+}
+
+.popup-text {
+  padding-left: 20px;
+}
+
+.popup.show {
+  display: block; /* Show popup when it has the "show" class */
+  border-radius: 20px;
+}
+
+.popup-overlay {
+  display: none; /* Hide overlay by default */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+}
+
+.popup-overlay.show {
+  display: block; /* Show overlay when it has the "show" class */
+}
+
+
+/* ====popop========== */

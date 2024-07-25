@@ -75,16 +75,15 @@
                     <h3 class="sub-heading">NEWSLETTER</h3>
                     <p>Subscribe to the newsletter for <br> regular updates.</p>
                     <div class="row">
-                        <div class="col-md-6">
+                        <div class="col-md-6 d-flex">
                             <input type="text" placeholder="Email Address" name="subscribe" id="subscribe">
+                            <button class="blue">Subscribe</button>
                         </div>
-                        <div class="col-md-3 pt-1">
-                            <a href="" class="blue"> Subscribe</a>
-                        </div>
+                        
                     </div>
                 </div>
 
-                <div class="col-md-1 ">
+                <div class="col-md-1 "style=" display: flex;justify-content: space-evenly; flex-direction: column;">
 
                     <div class="social-item">
                         <a href="" class="s-icon fb" target="_blank">
@@ -111,7 +110,7 @@
             </div>
 
             <div class="row d-flex justify-content-center">
-                <div class="copyright col-md-4 text-center">
+                <div class="copyright col-md-6 text-center">
                     &copy; 2024 ADMOG Holding. All rights reserved.
                 </div>
             </div>
@@ -136,3 +135,35 @@
         }
     });
 </script>
+
+
+<!-- popup -->
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        var popups = document.querySelectorAll('.popup');
+        var popLinks = document.querySelectorAll('.pop');
+        var overlay = document.createElement('div');
+        overlay.className = 'popup-overlay';
+        document.body.appendChild(overlay);
+    
+        popLinks.forEach(function(link) {
+            link.addEventListener('click', function(e) {
+                e.preventDefault();
+                var popupId = this.getAttribute('data-popup');
+                var popup = document.getElementById(popupId);
+                if (popup) {
+                    popup.classList.add('show');
+                    overlay.classList.add('show');
+                }
+            });
+        });
+    
+        overlay.addEventListener('click', function() {
+            document.querySelectorAll('.popup.show').forEach(function(popup) {
+                popup.classList.remove('show');
+            });
+            overlay.classList.remove('show');
+        });
+    });
+    </script>
+    

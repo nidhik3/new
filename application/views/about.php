@@ -105,23 +105,66 @@
                 <div class="circle">
                     <img src="assets/img/corporate1.png" alt="">
                 </div>
-                <h5 class="tag1 u pt-5">Fabio Capponi</h5>
+                <a class="pop" href="#" data-popup="popup1">
+                    <h5 class="tag1 u pt-5">Fabio Capponi</h5>
+                </a>
+                <div id="popup1" class="popup">
+                    <div class="popup-content d-flex justify-content-around">
+                        <div class="col-md-5 popup-img d-flex justify-content-center align-items-center">
+                            <img src="assets/img/c1.png" alt="Popup Image" class="popup-img">
+                        </div>
+                        <div class="col-md-7 popup-text text-start">
+                            <h5 class="popup-name u tag1">Fabio Capponi</h5>
+                            <h5 class="popup-title u corporate">Chief Executive Officer</h5>
+                            <p class="popup-description">Mr. Capponi has over 20 years of experience and a successful track-record in the natural resources and capital market industries. He has been involved in creating, structuring and selling natural resources companies worth over $5 billion working in Europe and both North and Latin America. Mr. Capponi is the founder of Seasif Exploration (formerly Westerrn Atlas Resources Inc.) and was Co-Founder of CB Gold Inc. where he also served as President and CEO from 2009 to 2015 (CB Gold was acquired in December 2015). Prior to that Mr. Capponi was with Endeavour Financial and has covered the Director and Management positions with private companies. Mr. Capponi holds a master’s degree in economics and business administration from the LUISS Guido Carli University of Rome, Italy.</p>
+                        </div>
+                    </div>
+                </div>
                 <p class="u corporate pt-1">Chief Executive Officer</p>
             </div>
 
-            <div class="col-md-3 text-center ">
-                <div class="circle ">
+            <div class="col-md-3 text-center">
+                <div class="circle">
                     <img src="assets/img/corporate2.png" alt="">
                 </div>
-                <h5 class="tag1 u pt-5">José Francisco Arata</h5>
-                <p class="u corporate pt-1">Chief Operating Officer</p>
+                <a class="pop" href="#" data-popup="popup2">
+                    <h5 class="tag1 u pt-5">José Francisco Arata</h5>
+                </a>
+                <div id="popup2" class="popup">
+                    <div class="popup-content d-flex justify-content-around">
+                        <div class="col-md-5 popup-img d-flex justify-content-center align-items-center">
+                            <img src="assets/img/c2.png" alt="Popup Image" class="popup-img">
+                        </div>
+                        <div class="col-md-7 popup-text text-start">
+                            <h5 class="popup-name u tag1">José Francisco Arata</h5>
+                            <h5 class="popup-title u corporate">Chief Operating Officer</h5>
+                            <p class="popup-description">Mr. Arata has over 30 years of experience in exploration, developing and production of mineral and hydrocarbons projects having started his career with Petróleos de Venezuela, S.A., the Venezuelan-state owned oil and natural gas company. Mr. Arata is a former Director of Gran Colombia Gold, and has been co-founding partner and board member of several companies listed in the Toronto Stock Exchange. Among those companies was Pacific Rubiales Energy Corp., where he was President and Executive Director since its formation in 2003 until July 2015, Medoro Resources Ltd. and Bolivar Gold Corp. He holds a Degree in Geology from the University of Turin, Italy, a Degree in Geological Engineering from the Central University of Venezuela and is member of Colegio de Ingenieros de Venezuela, Asociación Colombiana de Geólogos, Society for Mining Metallurgy and Exploration, Prospectors and Developers Association of Canada, Society of Exploration Geophysicists, Sociedad Venezolana de Geólogos, and Asociación Venezolana de Geofísicos.</p>
+                        </div>
+                    </div>
+                </div>
+                <p class="u corporate pt-1">Chief Executive Officer</p>
             </div>
 
+         
             <div class="col-md-3 text-center ">
                 <div class="circle ">
                     <img src="assets/img/corporate3.png" alt="">
                 </div>
-                <h5 class="tag1 u pt-5">Giovanni Funaioli</h5>
+                <a class="pop" href="#" data-popup="popup3">
+                    <h5 class="tag1 u pt-5">Giovanni Funaioli</h5>
+                </a>
+                <div id="popup3" class="popup">
+                    <div class="popup-content d-flex justify-content-around">
+                        <div class="col-md-5 popup-img d-flex justify-content-center align-items-center">
+                            <img src="assets/img/c3.png" alt="Popup Image" class="popup-img">
+                        </div>
+                        <div class="col-md-7 popup-text text-start">
+                            <h5 class="popup-name u tag1">Giovanni Funaioli</h5>
+                            <h5 class="popup-title u corporate">Vice President Exploration & Development</h5>
+                            <p class="popup-description">Mr. Funaioli is a professional geologist with over 30 years of experience in mineral exploration for precious and base metals, in a variety of geological environments and mineral deposit systems. Mr. Funaioli previously held senior and executive positions which included project geologist at Bolivar Goldﬁelds, MK Gold-Arlo Resources, Hecla Mining and Bolivar Gold, as well as acted as exploration manager for Gold Mines of Sardinia, Medoro Resources, LGL, Newcrest Mining and Perseus Mining. Mr. Funaioli was also technical manager for Gold Fields, strategic project manager for Gran Colombia Gold, and VP Exploration for Royal Road Minerals. Mr. Funaioli has led the identiﬁcation and discovery of multimillion ounce gold resources, including the delivery of the Choco 10 in Venezuela, and the discovery of its satellite VBK deposit. Mr. Funaioli holds a Master’s degree in Geological Sciences (Volcanology and Geothermics) from the University of Pisa, Italy, and is Member of the Australasian Institute of Mining and Metallurgy (MAusIMM), the Society of Geology Applied to mineral deposits (SGA), (EurGeol) of the European Federation of Geologists (EFG), a Fellow of the Society of Economic Geologists (SEG) and a Qualiﬁed Person as defined by National Instrument 43-101.</p>
+                        </div>
+                    </div>
+                </div>
                 <p class="u corporate pt-1">Vice President Exploration & Development</p>
             </div>
 
@@ -129,7 +172,21 @@
                 <div class="circle ">
                     <img src="assets/img/corporate2.png" alt="">
                 </div>
-                <h5 class="tag1 u pt-5">Victor Torres</h5>
+                <a class="pop" href="#"  data-popup="popup4">
+                    <h5 class="tag1 u pt-5">Victor Torres</h5>
+                </a>
+                <div id="popup4" class="popup">
+                    <div class="popup-content d-flex justify-content-around">
+                        <div class="col-md-5 popup-img d-flex justify-content-center align-items-center">
+                            <img src="assets/img/c4.png" alt="Popup Image" class="popup-img">
+                        </div>
+                        <div class="col-md-7 popup-text text-start">
+                            <h5 class="popup-name u tag1">Victor Torres</h5>
+                            <h5 class="popup-title u corporate">Senior Geologist</h5>
+                            <p class="popup-description">Mr. Torres is a geological engineer with over 15 years of experience in mining exploration and project development. His experience and skills span from project generation and evaluation, grass root exploration to pre-feasibility stage projects, in both Latin and North America. Prior to joining Seasif Exploration, Mr. Torres held senior positions in a number of exploration companies, including project geologist with Teck Cominco, Placer Dome, Antofagasta Minerals and as production geologist for Centromin Perú. Most recently, Mr. Torres was Chief Project Geologist with CB Gold Inc. Mr. Torres holds a BSc. in Geological Engineering from the Universidad Nacional Mayor de San Marcos of Lima, Peru and is member of the Peruvian Engineers Association (CIP).</p>
+                        </div>
+                    </div>
+                </div>
                 <p class="u corporate pt-1">Senior Geologist</p>
             </div>
 
