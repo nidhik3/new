@@ -47,7 +47,7 @@
                         <a class="htop" href="news">news</a>
                     </div>
                     <div class="col-md-3">
-                        <a class="htop blue" href="contact">contact us</a>
+                        <a class="htop blue1" href="contact">contact us</a>
                     </div>
                 </div>
             </div>

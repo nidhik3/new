@@ -25,7 +25,7 @@
                     <a class="htop wTop  " href="">mission & vision</a>
                 </div>
                 <div class="col-md-4">
-                    <img src="assets/img/about-img.png" alt="">
+                    <img src="assets/img/about-img.png" alt="" style="width: 100%;">
                 </div>
             </div>
         </div>
@@ -150,39 +150,42 @@
                 </div> -->
             </div>
 
-          <div class="row d-flex justify-content-around space">
+            <div class="row d-flex justify-content-around space">
                 <div class="col-md-3 pictures">
                     <div class="image-container2">
                         <img src="assets/img/s1.png" alt="" class="pro">
                     </div>
                     <h3 class="pheading">Exploration</h3>
-                    <p class="s-para pb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit quo laboriosam asperiores</p>
+                    <p class="s-para pb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit quo laboriosam
+                        asperiores</p>
                     <div class="row pt-4 d-flex justify-content-center">
                         <a class="htop blue-white col-md-6" href="">
                             learn more
                         </a>
                     </div>
                 </div>
-        
+
                 <div class="col-md-3 pictures">
                     <div class="image-container2">
                         <img src="assets/img/s2.png" alt="" class="pro">
                     </div>
                     <h3 class="pheading">Development</h3>
-                    <p class="s-para pb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit quo laboriosam asperiores</p>
+                    <p class="s-para pb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit quo laboriosam
+                        asperiores</p>
                     <div class="row pt-4 d-flex justify-content-center">
                         <a class="htop blue-white col-md-6" href="">
                             learn more
                         </a>
                     </div>
                 </div>
-        
+
                 <div class="col-md-3 pictures">
                     <div class="image-container2">
                         <img src="assets/img/s3.png" alt="" class="pro">
                     </div>
                     <h3 class="pheading">Metals Trading</h3>
-                    <p class="s-para pb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit quo laboriosam asperiores</p>
+                    <p class="s-para pb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit quo laboriosam
+                        asperiores</p>
                     <div class="row pt-4 d-flex justify-content-center">
                         <a class="htop blue-white col-md-6" href="">
                             learn more
@@ -191,7 +194,7 @@
                 </div>
             </div>
 
-             <!--  <div class="row d-flex justify-content-around space">
+            <!--  <div class="row d-flex justify-content-around space">
                
                 <div class="col-md-3 pictures">
                        <div class="image-container2">
@@ -256,33 +259,28 @@
                 <div class="col-md-5"></div>
             </div>
 
+
+
             <div class="row d-flex justify-content-around space">
 
                 <div class="col-md-5 pictures">
-                    <img src="assets/img/project1.png" alt="" class="p">
-                    <p class="p-para ">Located in [Region], this project focuses on [specific metal or resource]. With
-                        estimated reserves of [quantity], it represents a cornerstone of our development strategy.</p>
-                    <div class="row " style="padding-left: 16px;">
-                        <a class="htop blue-white col-md-4 " href="">
-                            see details
-                        </a>
-                    </div>
-
+                    <img src="assets/img/soon.png" alt="" class="p">
                 </div>
 
                 <div class="col-md-5 pictures">
-                    <img src="assets/img/project2.png" alt="" class="p">
-                    <p class="p-para ">Situated in [Region], this initiative targets [specific metal or resource]. Our
+                    <img src="assets/img/soon.png" alt="" class="p">
+                    <!-- <p class="p-para ">Situated in [Region], this initiative targets [specific metal or resource]. Our
                         preliminary exploration results indicate substantial deposits, positioning it as a future
                         flagship operation.</p>
                     <div class="row" style="padding-left: 16px;">
                         <a class="htop blue-white col-md-4 " href="">
                             see details
-                        </a>
-                    </div>
+                        </a> 
+                    </div>-->
                 </div>
 
             </div>
+            
         </div>
     </section>
     <!--  key projects  -->

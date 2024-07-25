@@ -24,8 +24,24 @@
         </div>
 
 
-        <div class="soon d-flex justify-content-center align-items-center" style="height:70vh; width:100%; background-color:#E5E5E5; color:#252323;">
-            <H1>COMING SOON</H1>
+        <div class="row d-flex justify-content-around space">
+
+            <div class="col-md-5 pictures">
+                <img src="assets/img/soon.png" alt="" class="p">
+            </div>
+
+            <div class="col-md-5 pictures">
+                <img src="assets/img/soon.png" alt="" class="p">
+                <!-- <p class="p-para ">Situated in [Region], this initiative targets [specific metal or resource]. Our
+        preliminary exploration results indicate substantial deposits, positioning it as a future
+        flagship operation.</p>
+    <div class="row" style="padding-left: 16px;">
+        <a class="htop blue-white col-md-4 " href="">
+            see details
+        </a> 
+    </div>-->
+            </div>
+
         </div>
         <!-- <div class="row d-flex justify-content-around space">
 
@@ -120,7 +136,8 @@
         <div class="banner-content blue-banner  ">
             <p class="j-bannerH1 j1" style="width: 63vw;">lETS GET YOUR PROJECT STARTED</p>
             <p class="j-bannerH1 j2 pt-3 pb-5" style="padding: 0 190px 0 190px;">
-                To learn more about our services or to discuss potential partnerships, please contact us. Our team is ready to assist you with any inquiries you may have.
+                To learn more about our services or to discuss potential partnerships, please contact us. Our team is
+                ready to assist you with any inquiries you may have.
             </p>
             <a class="htop wTop" href="" style="font-size: 19px;">Contact us</a>
         </div>
