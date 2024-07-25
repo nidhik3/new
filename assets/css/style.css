@@ -292,6 +292,8 @@ a, a:hover{
 }
 .image-container2 {
     overflow: hidden; /* Ensures overflow is hidden */
+    display: flex;
+    justify-content: center;
 }
 
   /* our services======= */

@@ -4,7 +4,7 @@
         <div class="container space">
             <div class="row" style="margin-bottom: 2rem;">
                 <div class=" col-md-4">
-                    <img src="assets/img/flogo.png" alt="" style="padding-left: 32px; padding-bottom: 10px;">
+                  <a href="Main"> <img src="assets/img/flogo.png" alt="" style="padding-left: 32px; padding-bottom: 10px;"></a> 
                     <ul class="custom-list">
                         <li>
                             <div class="row pt-2">
@@ -63,11 +63,11 @@
                 <div class="col-md-3">
                     <h3 class="sub-heading">QUICK LINKS</h3>
                     <ul class="custom-list p-0">
-                        <li class="qlinks"><a href="main">Home</a> </li>
-                        <li class="qlinks"><a href="about">About Us</a></li>
-                        <li class="qlinks"><a href="service">Services</a></li>
-                        <li class="qlinks"><a href="project">Projects</a> </li>
-                        <li class="qlinks"><a href="contact">Contact Us</a></li>
+                        <li class="qlinks"><a href="Main">Home</a> </li>
+                        <li class="qlinks"><a href="About">About Us</a></li>
+                        <li class="qlinks"><a href="Service">Services</a></li>
+                        <li class="qlinks"><a href="Project">Projects</a> </li>
+                        <li class="qlinks"><a href="Contact">Contact Us</a></li>
                     </ul>
                 </div>
 

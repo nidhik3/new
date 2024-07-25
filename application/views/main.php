@@ -159,9 +159,12 @@
                     <p class="s-para pb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit quo laboriosam
                         asperiores</p>
                     <div class="row pt-4 d-flex justify-content-center">
-                        <a class="htop blue-white col-md-6" href="">
-                            learn more
-                        </a>
+                        <div class="col-md-6 d-flex justify-content-center">
+                            <a class="htop blue-white " href="">
+                                learn more
+                            </a>
+                        </div>
+
                     </div>
                 </div>
 
@@ -173,9 +176,11 @@
                     <p class="s-para pb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit quo laboriosam
                         asperiores</p>
                     <div class="row pt-4 d-flex justify-content-center">
-                        <a class="htop blue-white col-md-6" href="">
-                            learn more
-                        </a>
+                        <div class="col-md-6 d-flex justify-content-center">
+                            <a class="htop blue-white " href="">
+                                learn more
+                            </a>
+                        </div>
                     </div>
                 </div>
 
@@ -187,9 +192,11 @@
                     <p class="s-para pb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit quo laboriosam
                         asperiores</p>
                     <div class="row pt-4 d-flex justify-content-center">
-                        <a class="htop blue-white col-md-6" href="">
-                            learn more
-                        </a>
+                        <div class="col-md-6 d-flex justify-content-center">
+                            <a class="htop blue-white " href="">
+                                learn more
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -237,7 +244,7 @@
                         </a>
                     </div>
                 </div>
-</div> -->
+            </div> -->
         </div>
         </div>
     </section>
@@ -280,7 +287,7 @@
                 </div>
 
             </div>
-            
+
         </div>
     </section>
     <!--  key projects  -->
