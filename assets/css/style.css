@@ -400,7 +400,7 @@ li {
   height: 6vh; width: 3vw; border-radius: 4px; background-color: #1A406D !important; color: white !important;
 }
 .social {
-  flex-direction: row;
+  flex-direction: column;
 }
 
 

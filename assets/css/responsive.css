@@ -104,11 +104,14 @@
         width: 75%;
     }
     .social{
-        display: flex;justify-content: space-evenly; 
+        display: flex;
+        justify-content: space-evenly; 
+        flex-direction: row;
     }
     .ICON{
         width: 12vw;
            }
+          
 }
 
 @media (max-width: 575.98px) {
