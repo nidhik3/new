@@ -57,12 +57,12 @@
     </header> -->
     <header id="header" class="fixed-top">
     <div class="container">
-        <div class="row d-flex justify-content-between">
-            <div class="col-12 col-md-2 text-center pt-0">
+        <div class="row d-flex justify-content-between" style="flex-wrap:wrap;">
+            <div class="col-6 col-md-2 text-center pt-0">
                 <a  class="htop h2logo d-block d-md-inline" href="Main"> <img src="assets/img/flogo.png" alt="" style="padding-left: 32px; padding-bottom: 10px;"></a> 
             </div>
             
-            <div class="col-12 col-md-8 ">
+            <div class="col-6 col-md-8 ">
                 <nav class="navbar navbar-expand-md navbar-light d-flex align-items-center justify-content-evenly">
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>

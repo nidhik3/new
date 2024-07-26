@@ -1,8 +1,13 @@
+<style>
+    .banner-image{
+        height: 60vh;
+    }
+</style>
 <body>
 
     <section>
         <div class="image-container">
-            <img src="assets/img/Homebanner.png" alt="Banner Image" style="width: 100%;height: 100vh;">
+            <img src="assets/img/Homebanner.png" alt="Banner Image" class="main-banner">
             <p class="bannerH1">Empowering Tomorrow with Sustainable Natural Resource Solutions</p>
             <p class="bannerp ">Leading the way in responsible exploration, development, and trading of natural
                 resources.</p>
@@ -15,7 +20,7 @@
     <section style="background-color: #042338;">
         <div class="container space-y">
             <div class="row d-flex justify-content-around">
-                <div class="col-md-5 space">
+                <div class="col-md-5 space mspace">
                     <!-- <h5 class="tag1" style="color: white;">Who we are</h5> -->
                     <h5 class="tag2" style="color: white;">About us</h5>
                     <p class="tag-para py-4">ADMOG Holding Corp. is a leading natural resources holding company
@@ -34,8 +39,8 @@
 
     <!-- our services -->
     <section>
-        <div class="container space-y">
-            <div class="row d-flex justify-content-around ">
+        <div class="container space-y ">
+            <div class="row d-flex justify-content-around mspace ">
                 <div class="col-md-5">
                     <h5 class="tag1">our</h5>
                 </div>
@@ -253,7 +258,7 @@
     <!-- key projects -->
     <section>
         <div class="container space-y">
-            <div class="row d-flex justify-content-around ">
+            <div class="row d-flex justify-content-around mspace">
                 <div class="col-md-5">
                     <h5 class="tag1"> key</h5>
                 </div>
@@ -271,11 +276,11 @@
             <div class="row d-flex justify-content-around space">
 
                 <div class="col-md-5 pictures">
-                    <img src="assets/img/soon.png" alt="" class="p">
+                    <img src="assets/img/soon.png" alt="" class="soon">
                 </div>
 
                 <div class="col-md-5 pictures">
-                    <img src="assets/img/soon.png" alt="" class="p">
+                    <img src="assets/img/soon.png" alt="" class="soon">
                     <!-- <p class="p-para ">Situated in [Region], this initiative targets [specific metal or resource]. Our
                         preliminary exploration results indicate substantial deposits, positioning it as a future
                         flagship operation.</p>
@@ -295,7 +300,7 @@
     <!-- join us -->
     <section>
         <div class="banner-container ">
-            <img src="assets/img/join-banner.png" alt="" class="banner-image" style="height: 60vh;">
+            <img src="assets/img/join-banner.png" alt="" class="banner-image" >
             <div class="banner-content ">
                 <p class="j-bannerH1 j1">Join us!</p>
                 <p class="j-bannerH1 j2 pt-3 pb-5 ">

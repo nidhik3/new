@@ -10,7 +10,7 @@
 <!-- updates -->
 <section>
     <div class="container space-y">
-        <div class="row d-flex justify-content-around ">
+        <div class="row d-flex justify-content-around mspace ">
             <div class="col-md-5">
                 <h5 class="tag1"> latest</h5>
             </div>
@@ -145,8 +145,8 @@
     <div class="banner-container ">
         <img src="assets/img/blue-banner.png" alt="" class="banner-image" style="height: 60vh;">
         <div class="banner-content blue-banner  ">
-            <p class="j-bannerH1 j1" style="width: 63vw;">lETS GET YOUR PROJECT STARTED</p>
-            <p class="j-bannerH1 j2 pt-3 pb-5" style="padding: 0 190px 0 190px;">
+            <p class="j-bannerH1 j1" >lETS GET YOUR PROJECT STARTED</p>
+            <p class="j-bannerH1 j2 pt-3 pb-5">
                 To learn more about our services or to discuss potential partnerships, please contact us. Our team is
                 ready to assist you with any inquiries you may have.
             </p>

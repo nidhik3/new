@@ -12,7 +12,7 @@
 <!-- text -->
 <section>
     <div class="container space-y">
-        <div class="row">
+        <div class="row mspace">
             <div class="col-md-2"></div>
             <div class="col-md-8 text-center">
                 <p class="p-para">ADMOG Holding Corp. is a leading natural resources holding company dedicated to the
@@ -31,36 +31,36 @@
     <div class="container space-y">
         <div class="row d-flex justify-content-around">
             <div class="col-md-5 space">
-                <div class="row">
+                <div class="row mspace">
                     <div class="col-md-2">
                         <img src="assets/img/mIcon.png" alt="">
                     </div>
                     <div class="col-md-1"></div>
-                    <div class="col-md-8">
+                    <div class="col-md-8 ">
                         <h5 class="tag1" style="color: white;">OUR</h5>
                         <h5 class="tag2" style="color: white;">MISSION</h5>
                     </div>
                 </div>
-                <p class="tag-para py-4">Our mission is to be a premier player in the natural resources industry by
+                <p class="tag-para py-4 mspace ">Our mission is to be a premier player in the natural resources industry by
                     harnessing the potential of untapped mineral reserves and driving economic growth through efficient
                     and ethical practices. We aim to contribute significantly to the global supply chain of essential
                     metals, ensuring a stable and reliable source for industries worldwide.</p>
                 <!-- <a class="htop wTop  " href="">mission & vision</a> -->
             </div>
             <div class="col-md-4">
-                <img src="assets/img/mission.png" alt="">
+                <img src="assets/img/mission.png" alt="" style="width: 100%;">
             </div>
         </div>
     </div>
 
     <div class="container space-y">
-        <div class="row d-flex justify-content-around">
+        <div class="row d-flex justify-content-around ">
 
             <div class="col-md-4">
-                <img src="assets/img/vision.png" alt="">
+                <img src="assets/img/vision.png" alt=""  style="width: 100%;">
             </div>
             <div class="col-md-5 pt-5">
-                <div class="row">
+                <div class="row mspace">
                     <div class="col-md-2">
                         <img src="assets/img/vIcon.png" alt="">
                     </div>
@@ -70,7 +70,7 @@
                         <h5 class="tag2" style="color: white;">VISION</h5>
                     </div>
                 </div>
-                <p class="tag-para py-4">To be a global leader in the natural resources sector, recognized for our
+                <p class="tag-para py-4 mspace">To be a global leader in the natural resources sector, recognized for our
                     innovative and sustainable practices in exploration, development, and refining. We aim to set the
                     benchmark for excellence in the industry, contributing to economic growth and the well-being of
                     communities worldwide while ensuring the responsible and efficient use of our planet's resources.
@@ -92,7 +92,7 @@
             <div class="col-md-8 text-center">
                 <h5 class="tag1">CORPORATE</h5>
                 <h5 class="tag2">GOVERNANCE</h5>
-                <p class="p-para">Our corporate governance framework is designed to uphold the highest standards of
+                <p class="p-para mspace">Our corporate governance framework is designed to uphold the highest standards of
                     transparency, accountability, and integrity. Our team comprises experienced professionals with
                     diverse backgrounds in mining, finance, and corporate management. We are dedicated to maintaining
                     robust ethical standards in all our dealings.</p>

@@ -15,11 +15,12 @@
        
         <div class="row">
             <div class="col-md-1"></div>
-            <div class=" col-md-5">
+            <div class=" col-md-5 first">
                 <img src="assets/img/flogo.png" alt="" style="padding-left: 32px; padding-bottom: 30px;">
                 <ul class="custom-list">
                     <li>
-                        <div class="row pt-2">
+                        <div class="row pt-3">
+                            
                             <div class="col-md-2 d-flex justify-content-end align-items-center">
                                 <i style="margin-right: 6px; font-size: 17px;" class="fa-solid fa-phone"></i>
 
@@ -31,7 +32,7 @@
                     </li>
 
                     <li>
-                        <div class="row pt-2">
+                        <div class="row pt-3">
                             <div class="col-md-2  d-flex  justify-content-end align-items-center">
                                 <i style="margin-right: 6px;font-size: 17px;" class="fa-regular fa-envelope"></i>
                             </div>
@@ -43,20 +44,7 @@
                     </li>
 
                     <li>
-                        <div class="row pt-2">
-                            <div class="col-md-2 d-flex justify-content-end align-items-center">
-                                <i style="margin-right: 6px; font-size: 17px;" class="fa-solid fa-globe"></i>
-
-
-                            </div>
-                            <div class="col-md-10 p-0 d-flex align-items-center">
-                                <a href="www.admogholding.com">www.admogholding.com</a>
-                            </div>
-                        </div>
-                    </li>
-
-                    <li>
-                        <div class="row pt-2">
+                        <div class="row pt-3">
                             <div class="col-md-2 pt-2 d-flex justify-content-end ">
                                 <i style="margin-right: 7px; font-size: 17px;" class="fa-solid fa-location-dot"></i>
 
@@ -75,20 +63,20 @@
 
             <div class="col-md-5">
                 <form action="" id="contactform" method="post" enctype="multipart/form-data">
-                    <div class="form-group">
+                    <div class="form-group mspace">
                         <label for="name">Name</label>
                         <input type="text" class="form-control" id="name">
                     </div>
-                    <div class="form-group pt-3">
+                    <div class="form-group mspace pt-3">
                         <label for="email">Email address</label>
                         <input type="email" class="form-control" id="email">
                     </div>
-                    <div class="form-group pt-3">
+                    <div class="form-group mspace pt-3">
                         <label for="message">Message</label>
                         <textarea class="form-controls" id="message" rows="3"></textarea>
                     </div>
                     <div class="col-md-8 d-flex justify-content-center">
-                        <div class="form-group text-center py-5">
+                        <div class="form-group mspace text-center py-5">
                             <button type="submit" class=" htop blue-white">Submit</button>
                         </div>
                     </div>

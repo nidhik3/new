@@ -1,34 +1,122 @@
-@media(max-width: 768px){
-    html{
-        border: 2px solid red;
-    }
-
+@media (max-width: 768px) {
+	html {
+		
+		width: 100%;
+	}
 }
 
 /* Responsive Styles */
 @media (max-width: 767.98px) {
-    .space-y {
-        padding: 50px 0px !important;
-    }
-    .h1logo, .h2logo {
-        font-size: 28px; /* Adjust size for smaller screens */
-    }
+	.space-y {
+		padding: 50px 0px !important;
+	}
+	.space {
+		padding-top: 20px !important;
+		padding-bottom: 30px !important;
+	}
+	.h1logo,
+	.h2logo {
+		font-size: 28px; /* Adjust size for smaller screens */
+	}
 
-    .navbar-nav .nav-link {
-        font-size: 16px; /* Adjust font size for smaller screens */
-    }
+	.navbar-nav .nav-link {
+		font-size: 16px; /* Adjust font size for smaller screens */
+	}
 
-    .navbar-toggler {
-        border-color: #1A406D; /* Adjust color for the menu button */
+	.navbar-toggler {
+		border-color: #1a406d; /* Adjust color for the menu button */
+	}
+
+	.navbar-collapse {
+		background-color: aliceblue;
+		padding: 10px;
+	}
+	#header.solid .htop {
+		color: #1a406d;
+	}
+	#header.solid .blue1 {
+		color: white;
+	}
+	.bannerH1 {
+		top: 24%;
+		font-size: 27px;
+		font-weight: 600;
+		width: 94%;
+	}
+	.bannerp {
+		top: 47%;
+		font-size: 15px;
+		width: 98%;
+		font-weight: 500;
+	}
+	.bannerH2 {
+		top: 60%;
+	}
+	.main-banner {
+		height: 75vh;
+	}
+	.mspace {
+		padding-left: 30px !important;
+		padding-right: 30px !important;
+	}
+	.banner-content {
+		width: 91%;
+	}
+	.j2 {
+		font-size: 14px;
+	}
+	.j1 {
+		font-size: 34px;
+	}
+
+	.banner-image {
+		height: 39vh;
+	}
+
+	.copyright {
+		font-size: 13px;
+	}
+    .tag2 {
+        font-size: 33px;
     }
+    .tag1 {
+        font-size: 25px;
+    }
+    .p-para{
+        padding: 0;
+        font-size: 15px;
+    }
+    .popup.show{
+        width:98%;
+        /* height: 50%; */
+    }
+    .popup.show img , .qlinks ,.nletter{
+        display: none;
+    }
+    .form-control, .form-controls {
+        width: 96% !important;
+       
+    }
+    .first{
+        display: none;
+    }
+    .bannerH3 {
+        width: 75%;
+    }
+    .social{
+        display: flex;justify-content: space-evenly; 
+    }
+    .ICON{
+        width: 12vw;
+           }
 }
 
 @media (max-width: 575.98px) {
-    .h1logo {
-        font-size: 24px; /* Further adjust size for very small screens */
-    }
+	.h1logo {
+		font-size: 24px; /* Further adjust size for very small screens */
+	}
 
-    .h2logo {
-        font-size: 18px; /* Further adjust size for very small screens */
-    }
+	.h2logo {
+		font-size: 18px; /* Further adjust size for very small screens */
+	}
 }
