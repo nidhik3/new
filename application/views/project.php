@@ -2,6 +2,7 @@
 <section>
     <div class="image-container">
         <img src="assets/img/Projectsbanner.png" alt="Banner Image" style="width: 100%;height: 80vh;">
+        <div class="overlay"></div>
         <p class="bannerH3">Projects</p>
 
     </div>
@@ -58,7 +59,7 @@
                 To learn more about our services or to discuss potential partnerships, please contact us. Our team is
                 ready to assist you with any inquiries you may have.
             </p>
-            <a class="htop wTop" href="" style="font-size: 19px;">Contact us</a>
+            <a class="htop wTop" href="Contact" style="font-size: 19px;">Contact us</a>
         </div>
     </div>
 

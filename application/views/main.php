@@ -161,8 +161,7 @@
                         <img src="assets/img/s1.png" alt="" class="pro">
                     </div>
                     <h3 class="pheading">Exploration</h3>
-                    <p class="s-para pb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit quo laboriosam
-                        asperiores</p>
+                    <p class="s-para pb-4">Identifying and assessing potential energy resources. Our team of geologists and engineers use advanced techniques and technologies to locate valuable mineral and energy deposits.</p>
                     <div class="row pt-4 d-flex justify-content-center">
                         <div class="col-md-6 d-flex justify-content-center">
                             <a class="htop blue-white " href="">
@@ -178,8 +177,7 @@
                         <img src="assets/img/s2.png" alt="" class="pro">
                     </div>
                     <h3 class="pheading">Development</h3>
-                    <p class="s-para pb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit quo laboriosam
-                        asperiores</p>
+                    <p class="s-para pb-4">Efficiently and safely extracting oil, gas, and coal. We employ cutting-edge equipment and sustainable practices to ensure maximum recovery with minimal environmental impact.</p>
                     <div class="row pt-4 d-flex justify-content-center">
                         <div class="col-md-6 d-flex justify-content-center">
                             <a class="htop blue-white " href="">
@@ -194,8 +192,7 @@
                         <img src="assets/img/s3.png" alt="" class="pro">
                     </div>
                     <h3 class="pheading">Metals Trading</h3>
-                    <p class="s-para pb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit quo laboriosam
-                        asperiores</p>
+                    <p class="s-para pb-4">This includes solutions for water discharge, recycling, and maintaining ecological balance.</p>
                     <div class="row pt-4 d-flex justify-content-center">
                         <div class="col-md-6 d-flex justify-content-center">
                             <a class="htop blue-white " href="">
@@ -308,7 +305,7 @@
                     horizons, develop valuable resources, and drive sustainable growth in the natural resources
                     industry. Together, we can unlock the potential of our planet's wealth responsibly and profitably.
                 </p>
-                <a class="htop blue-white" href="" style="font-size: 19px;">Contact us now</a>
+                <a class="htop blue-white" href="Contact" style="font-size: 19px;">Contact us now</a>
             </div>
         </div>
 

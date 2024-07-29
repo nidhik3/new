@@ -2,8 +2,8 @@
 <section>
     <div class="image-container">
         <img src="assets/img/Aboutbanner.png" alt="Banner Image" style="width: 100%;height: 80vh;">
-        <p class="bannerH1">About <br>
-            ADMOG Holding</p>
+        <div class="overlay"></div>
+        <p class="bannerH1">About Us</p>
 
     </div>
 </section>

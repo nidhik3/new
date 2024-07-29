@@ -1,10 +1,11 @@
 <!-- banner -->
 <section>
-    <div class="image-container">
-        <img src="assets/img/Servicesbanner.png" alt="Banner Image" style="width: 100%;height: 80vh;">
-        <p class="bannerH3">Services</p>
+<div class="image-container">
+    <img src="assets/img/Servicesbanner.png" alt="Banner Image" class="banner-image" style="height:80vh;">
+    <div class="overlay"></div>
+    <p class="bannerH3">Services</p>
+</div>
 
-    </div>
 </section>
 
 
@@ -158,7 +159,7 @@
                 To learn more about our services or to discuss potential partnerships, please contact us. Our team is
                 ready to assist you with any inquiries you may have.
             </p>
-            <a class="htop wTop" href="" style="font-size: 19px;">Contact us now</a>
+            <a class="htop wTop" href="Contact" style="font-size: 19px;">Contact us now</a>
         </div>
     </div>
 

@@ -31,7 +31,7 @@
                             <div class="row pt-3 ">
                                
                                 <div class="col-md-10 p-0 d-flex align-items-center">
-                                    <i style="margin-right: 7px; font-size: 17px;" class="fa-solid fa-location-dot"></i>
+                                    <i style="margin-right: 7px; font-size: 17px;" class="fa-solid fa-location-dot loc"></i>
                                     <a href="">Floor No. 4, MW Properties Bldg., <br>
                                         ADNEC Area, Abu Dhabi, UAE</a>
                                 </div>
